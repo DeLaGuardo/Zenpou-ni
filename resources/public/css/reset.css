@@ -14,7 +14,7 @@ article, aside, dialog, figure, footer, header,
 hgroup, nav, section {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 10;
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
