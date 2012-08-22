@@ -4,4 +4,6 @@
         [noir.util.test]))
 
 (deftest sample-test
-  (is true))
+  (is (= 4 (+ 2 2)) "Regular test")
+  (is (instance? Integer 256))
+  (is (.startsWith "acbcde" "ab")) "Fail test")
